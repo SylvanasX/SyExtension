@@ -1,0 +1,6 @@
+framework module Pods_SyExtension_Tests {
+  umbrella header "Pods-SyExtension_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module SyExtension {
+  umbrella header "SyExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

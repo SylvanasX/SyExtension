@@ -1,0 +1,6 @@
+framework module Pods_SyExtension_Example {
+  umbrella header "Pods-SyExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
