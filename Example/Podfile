@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SyExtension_Example' do
+  pod 'SyExtension', :path => '../'
+
+  target 'SyExtension_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
