@@ -69,7 +69,7 @@
 
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		06DD7AB364C23F9406898C637DE6431C /* SyExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SyExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		06DD7AB364C23F9406898C637DE6431C /* SyExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SyExtension.podspec; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		1531B57AD8EC96333BCEF1C0273E1ACF /* Pods-SyExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SyExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		5683358321EE1F14DF1136ACAE3980C9 /* UIView+SyExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SyExtension.h"; path = "SyExtension/Classes/UIView+SyExtension.h"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		5A692FDAF988E76A0FA2D2102252D46E /* UIControl+SyExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+SyExtension.m"; path = "SyExtension/Classes/UIControl+SyExtension.m"; sourceTree = "<group>"; };
-		5FD3E7CD0248F97E1708DBAB1F1005B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5FD3E7CD0248F97E1708DBAB1F1005B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		604D15FEE62E73F77576CE200CD364DB /* Pods-SyExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SyExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		62B46C1B56BEC02B03439C8032AA32DA /* SyExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SyExtension-prefix.pch"; sourceTree = "<group>"; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,12 +106,12 @@
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8647E583FCEFB5DED34636FD46A8897A /* SyExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SyExtension.modulemap; sourceTree = "<group>"; };
-		891BA3B9ED816C9A771D7B6610689301 /* Pods_SyExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SyExtension_Example.framework; path = "Pods-SyExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		891BA3B9ED816C9A771D7B6610689301 /* Pods_SyExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3335CA5E8DFDDB798B92F89AA4892B /* UIControl+SyExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+SyExtension.h"; path = "SyExtension/Classes/UIControl+SyExtension.h"; sourceTree = "<group>"; };
 		91D79B60A60DFB5994BABB58823C6927 /* Pods-SyExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SyExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96603C344A1BC45BF5722DEFB2D9BA58 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A010E030661A15A2A4D0493CA7B4DC61 /* SyExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SyExtension.framework; path = SyExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96603C344A1BC45BF5722DEFB2D9BA58 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A010E030661A15A2A4D0493CA7B4DC61 /* SyExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SyExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A9E70068B615692C2253AD6DE3F3ADF1 /* Pods-SyExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,10 +126,10 @@
 		B9E6CA49A87B8D78280CDA78F1B3EF67 /* Pods-SyExtension_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SyExtension_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BB21B14E42CDB7D35BE21EECC48794B3 /* NSTimer+SyExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+SyExtension.h"; path = "SyExtension/Classes/NSTimer+SyExtension.h"; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C73BD780805838C5D48E065B73725CA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C73BD780805838C5D48E065B73725CA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C986A35336B4CF77FFE7EB8DB1952584 /* Pods-SyExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CEE5A1892CD332BBDC52F6120F578899 /* Pods-SyExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF142AB8E1B1D4713E8A7F1B81D3C408 /* Pods_SyExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SyExtension_Tests.framework; path = "Pods-SyExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF142AB8E1B1D4713E8A7F1B81D3C408 /* Pods_SyExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D224A27CC16D4F6F19093BE2E7DFA52D /* SyMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyMacro.h; path = SyExtension/Classes/SyMacro.h; sourceTree = "<group>"; };
 		D7B31D24707F3A0E899829F5B52CBADD /* SyExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SyExtension.xcconfig; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
@@ -202,7 +202,6 @@
 				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
