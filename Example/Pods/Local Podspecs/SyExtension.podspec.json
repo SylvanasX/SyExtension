@@ -1,7 +1,7 @@
 {
   "name": "SyExtension",
-  "version": "0.1.0",
-  "summary": "A short description of SyExtension.",
+  "version": "0.2.0",
+  "summary": "SyExtension.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/SylvanasX/SyExtension",
   "license": {
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/SylvanasX/SyExtension.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "source_files": "SyExtension/Classes/**/*"
 }

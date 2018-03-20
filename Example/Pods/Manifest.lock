@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SyExtension (0.1.0)
+  - SyExtension (0.2.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -12,12 +12,12 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   SyExtension:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
-  SyExtension: efb0df218898dd558bf5fd7d38cca073ec9eaa06
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SyExtension: a8b5311dd4de9e70a91fa268391229b178f42861
 
 PODFILE CHECKSUM: f496d4afd67f82d957e3e7305eaed46bb122f208
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.4.0

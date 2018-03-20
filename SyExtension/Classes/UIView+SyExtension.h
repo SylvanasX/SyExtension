@@ -12,15 +12,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (SyExtension)
 
-@property (nonatomic, assign) CGFloat sy_x;
-@property (nonatomic, assign) CGFloat sy_y;
-@property (nonatomic, assign) CGFloat sy_width;
-@property (nonatomic, assign) CGFloat sy_height;
-@property (nonatomic, assign) CGFloat sy_centerX;
-@property (nonatomic, assign) CGFloat sy_centerY;
-@property (nonatomic, assign) CGFloat sy_maxX;
-@property (nonatomic, assign) CGFloat sy_maxY;
-@property (nonatomic, assign) CGSize sy_size;
+@property (nonatomic, assign, setter = sy_setX:) CGFloat sy_x;
+@property (nonatomic, assign, setter = sy_setY:) CGFloat sy_y;
+@property (nonatomic, assign, setter = sy_setWidth:) CGFloat sy_width;
+@property (nonatomic, assign, setter = sy_setHeight:) CGFloat sy_height;
+@property (nonatomic, assign, setter = sy_setCenterX:) CGFloat sy_centerX;
+@property (nonatomic, assign, setter = sy_setCenterY:) CGFloat sy_centerY;
+@property (nonatomic, assign, setter = sy_setMaxX:) CGFloat sy_maxX;
+@property (nonatomic, assign, setter = sy_setMaxY:) CGFloat sy_maxY;
+@property (nonatomic, assign, setter = sy_setSize:) CGSize sy_size;
 
 @property (nonatomic, assign, readonly) CGFloat sy_middleX;
 @property (nonatomic, assign, readonly) CGFloat sy_middleY;

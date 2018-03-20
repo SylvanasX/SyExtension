@@ -40,17 +40,18 @@
     return snap;
 }
 
-- (void)setSy_x:(CGFloat)sy_x {
+- (void)sy_setX:(CGFloat)sy_x {
     CGRect frame = self.frame;
     frame.origin.x = sy_x;
     self.frame = frame;
+
 }
 
 - (CGFloat)sy_x {
     return self.frame.origin.x;
 }
 
-- (void)setSy_y:(CGFloat)sy_y {
+- (void)sy_setY:(CGFloat)sy_y {
     CGRect frame = self.frame;
     frame.origin.y = sy_y;
     self.frame = frame;
@@ -60,7 +61,7 @@
     return self.frame.origin.y;
 }
 
-- (void)setSy_width:(CGFloat)sy_width {
+- (void)sy_setWidth:(CGFloat)sy_width {
     CGRect frame = self.frame;
     frame.size.width = sy_width;
     self.frame = frame;
@@ -70,7 +71,8 @@
     return self.frame.size.width;
 }
 
-- (void)setSy_height:(CGFloat)sy_height {
+
+- (void)sy_setHeight:(CGFloat)sy_height {
     CGRect frame = self.frame;
     frame.size.height = sy_height;
     self.frame = frame;
@@ -80,7 +82,7 @@
     return self.frame.size.height;
 }
 
-- (void)setSy_centerX:(CGFloat)sy_centerX {
+- (void)sy_setCenterX:(CGFloat)sy_centerX {
     CGPoint center = self.center;
     center.x = sy_centerX;
     self.center = center;
@@ -90,7 +92,7 @@
     return self.center.x;
 }
 
-- (void)setSy_centerY:(CGFloat)sy_centerY {
+- (void)sy_setCenterY:(CGFloat)sy_centerY {
     CGPoint center = self.center;
     center.y = sy_centerY;
     self.center = center;
@@ -104,7 +106,7 @@
     return CGRectGetMaxX(self.frame);
 }
 
-- (void)setSy_maxX:(CGFloat)sy_maxX {
+- (void)sy_setMaxX:(CGFloat)sy_maxX {
     CGRect frame = self.frame;
     frame.origin.x = sy_maxX - self.sy_width;
     self.frame = frame;
@@ -114,13 +116,13 @@
     return CGRectGetMaxY(self.frame);
 }
 
-- (void)setSy_maxY:(CGFloat)sy_maxY {
+- (void)sy_setMaxY:(CGFloat)sy_maxY {
     CGRect frame = self.frame;
     frame.origin.y = sy_maxY - self.sy_height;
     self.frame = frame;
 }
 
-- (void)setSy_size:(CGSize)sy_size {
+- (void)sy_setSize:(CGSize)sy_size {
     CGRect frame = self.frame;
     frame.size = sy_size;
     self.frame = frame;
