@@ -29,4 +29,26 @@
     return str;
 }
 
+- (NSString *)jsonStringWithPrettyPrint:(BOOL)prettyPrint {
+    NSError *error;
+    if (self) {
+        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:self
+                                                           options:(NSJSONWritingOptions) (prettyPrint ? NSJSONWritingPrettyPrinted : 0)
+                                                             error:&error];
+        
+        if (! jsonData) {
+            NSLog(@"jsonStringWithPrettyPrint: error: %@", error.localizedDescription);
+            return @"{}";
+        } else {
+            return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        }
+    } else {
+        return nil;
+    }
+}
+
+- (NSString *)toString {
+    return [self jsonStringWithPrettyPrint:YES];
+}
+
 @end

@@ -10,4 +10,7 @@
 
 @interface NSArray (SyExtension)
 
+@property (nonatomic, copy, readonly) NSString *toString;
+- (NSString *)jsonStringWithPrettyPrint:(BOOL)prettyPrint;
+
 @end
